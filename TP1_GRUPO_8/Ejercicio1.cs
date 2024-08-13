@@ -111,6 +111,11 @@ namespace TP1_GRUPO_8
                 MessageBox.Show("No hay nombres en la lista");
             }
         }
+
+        private void lbNombres1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 // PRUEBA DE GITHUB

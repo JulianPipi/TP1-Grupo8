@@ -16,5 +16,29 @@ namespace TP1_GRUPO_8
         {
             InitializeComponent();
         }
+
+        private void Ejercicio2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnBorrar_Click(object sender, EventArgs e)
+        {
+           // if()
+           // {
+
+           // }
+        }
+
+        private void BtnRegistrar_Click(object sender, EventArgs e)
+        {
+            if(TxtApellido.Text != ("") && TxtNombre.Text != ("") )
+            {
+                LblNombre.Text.Trim();
+                LblApellido.Text.Trim();
+                LbLista.Items.Add(TxtNombre.Text + " " + TxtApellido.Text);
+                LbLista.Sorted = true;
+            }
+        }
     }
 }

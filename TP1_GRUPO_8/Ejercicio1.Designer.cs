@@ -74,6 +74,7 @@
             this.lbNombres1.Name = "lbNombres1";
             this.lbNombres1.Size = new System.Drawing.Size(183, 329);
             this.lbNombres1.TabIndex = 3;
+            this.lbNombres1.SelectedIndexChanged += new System.EventHandler(this.lbNombres1_SelectedIndexChanged);
             // 
             // lbNombres2
             // 
